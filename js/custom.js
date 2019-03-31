@@ -18,3 +18,8 @@ $('.slider-for').slick({
    var slideno = $(this).data('slide');
    $('.slider-nav').slick('slickGoTo', slideno - 1);
  });
+$('.slider').slick({
+    dots: false,
+    prevArrow: false,
+    nextArrow: false
+});
