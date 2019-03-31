@@ -431,6 +431,8 @@
   <!-- Clients -->
   <section class="py-5">
     <div class="container">
+      <p class="large text-muted">A special thanks to our sponsers</p>
+
       <div class="row">
         <div class="col-md-3 col-sm-6">
           <a href="#">
@@ -491,7 +493,7 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <a herf="https://www.youtube.com/watch?v=QgT0WhguhaQ" id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">I wanna hear your secrets</a>
+                <a id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" onclick=" relocate_home()>I wanna hear your secrets</a>
               </div>
             </div>
           </form>
@@ -738,7 +740,12 @@
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="js/custom.js"></script>
 
-
+  <script>
+  function relocate_home()
+  {
+       location.href = "https://www.youtube.com/watch?v=QgT0WhguhaQ";
+  } 
+  </script>
 
 </body>
 
