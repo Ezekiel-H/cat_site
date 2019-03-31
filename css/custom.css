@@ -19,3 +19,7 @@
   transform: translateX(0);
   
 }
+
+.carousel-inner .item img {
+width: 100%; /* or width: 100% !important; */
+}
