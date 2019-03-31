@@ -26,14 +26,7 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
-  <style>
-    body{ display: inline-flex; background: darkslategrey;}
-    .basic, .withOptions{margin: 0 50px;}
-    .basic div, .withOptions div {width: 500px;height: 250px;}
-    img {width: 100%;}
-  </style>
+  <link href="css/custom.css" rel="stylesheet">
 
 
 </head>
@@ -223,25 +216,28 @@
 
 
       <!-- Photo Gallery -->
-      <div class="basic">
-        <div><img src="https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
-        <div><img src="https://images.pexels.com/photos/552791/pexels-photo-552791.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
-        <div><img src="https://images.pexels.com/photos/218983/pexels-photo-218983.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
-        <div><img src="https://images.pexels.com/photos/552766/pexels-photo-552766.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
-        <div><img src="https://images.pexels.com/photos/531872/pexels-photo-531872.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
-        <div><img src="https://images.pexels.com/photos/216623/pexels-photo-216623.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
+      <div class="main">
+        <div class="slider slider-for">
+          <div><h3>1</h3></div>
+          <div><h3>2</h3></div>
+          <div><h3>3</h3></div>
+          <div><h3>4</h3></div>
+          <div><h3>5</h3></div>
+        </div>
+        <div class="slider slider-nav">
+          <div><h3>1</h3></div>
+          <div><h3>2</h3></div>
+          <div><h3>3</h3></div>
+          <div><h3>4</h3></div>
+          <div><h3>5</h3></div>
+        </div>
+        <div class="action">
+          <a href="#" data-slide="3">go to slide 3</a>
+          <a href="#" data-slide="4">go to slide 4</a>
+          <a href="#" data-slide="5">go to slide 5</a>
+        </div>
       </div>
-
-      <div class="withOptions">
-        <div><img src="https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
-        <div><img src="https://images.pexels.com/photos/552791/pexels-photo-552791.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
-        <div><img src="https://images.pexels.com/photos/218983/pexels-photo-218983.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
-        <div><img src="https://images.pexels.com/photos/552766/pexels-photo-552766.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
-        <div><img src="https://images.pexels.com/photos/531872/pexels-photo-531872.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
-        <div><img src="https://images.pexels.com/photos/216623/pexels-photo-216623.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></div>
-      </div>
-
-     
+           
 
     <!-- <div class="container"> -->
      <!--Carousel Wrapper-->
@@ -770,23 +766,8 @@
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-   (html comment removed:  jQuery )
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      (html comment removed:  Slick )
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-     <script>
-        $('.basic').slick({
-          fade: true,
-          cssEase: 'ease-in-out'
-        });
-      $('.withOptions').slick({
-         dots: true,
-         arrows: true,
-         autoplay: true,
-         autoplayspeed: 1000,
-         centerMode: true,
-      });
-      </script>
+  <script src="js/custom.js"></script>
+
 
 
 </body>
