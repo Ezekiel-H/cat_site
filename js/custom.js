@@ -19,7 +19,5 @@ $('.slider-for').slick({
    $('.slider-nav').slick('slickGoTo', slideno - 1);
  });
 $('.slider').slick({
-    dots: false,
-    prevArrow: false,
-    nextArrow: false
+    dots: false
 });
